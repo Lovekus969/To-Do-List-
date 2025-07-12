@@ -1,4 +1,4 @@
-# To-Do-List-
+# To-Do-List- Simple and clean project is ready to use now.
 This is a simple real-world To-Do List application built using **HTML**, **CSS**, and **JavaScript**.
 
 ééProblem found  in security of the code whihc is week but i dont want to protrct it anymore as it just carry the information wich user need fro self but anyhow i will add the confused javascript version in it .will use concept of JavaScript Obfuscator Tool
