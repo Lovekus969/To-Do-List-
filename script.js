@@ -21,3 +21,9 @@ function addTask() {
   // Step 5: Clear the input box
   taskInput.value = '';
 }
+ // Enable audio on user interaction
+    window.addEventListener('click', () => {
+      const audio = document.getElementById('bg-audio');
+      audio.muted = false;
+      audio.play();
+    });
