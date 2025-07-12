@@ -3,6 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+.background {
+  background: url('https://i.gifer.com/7Zg7.gif') no-repeat center center fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  filter: brightness(0.7); /* Dim for text readability */
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
