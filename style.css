@@ -83,3 +83,52 @@ li {
   background-color: #e9ecef;
   border-radius: 6px;
 }
+
+/* Responsive Breakpoints */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .todo-container {
+    padding: 20px 25px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  #taskInput, button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+
+  .todo-container {
+    padding: 15px 20px;
+    max-width: 95%;
+  }
+
+  .input-section {
+    flex-direction: column;
+  }
+
+  #taskInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
