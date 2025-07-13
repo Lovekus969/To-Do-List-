@@ -131,4 +131,15 @@ li {
   h1 {
     font-size: 1.4rem;
   }
+  
+.delete-btn {
+  margin-right: 8px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
 
